@@ -1,7 +1,7 @@
 # ScriptHookVDotNet-nightly
 Mirror for CI builds.
 
-Nightly gets an update once a day, building starts at 10:00 UTC, usually builds are available five minutes later.
-We will have no nightly if there are new commits added since the latest nightly release.
+Nightly gets an update for a release every commit pushed on [the main repository](https://github.com/scripthookvdotnet/scripthookvdotnet/commits/main).
+Commit SHAs on tags are not important for artifacts on this nightly repository, as they only reference commits on this nightly repository, which is rarely updated by commits.
 
-For commit history, see https://github.com/scripthookvdotnet/scripthookvdotnet/commits/main.
+For the commit history on the main repository, see https://github.com/scripthookvdotnet/scripthookvdotnet/commits/main.
